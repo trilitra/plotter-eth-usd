@@ -22,7 +22,7 @@ func main() {
 	}
 
 	if err := pricesPlot.Save(15*vg.Inch, 4*vg.Inch, "ethereum_prices.png"); err != nil {
-		fmt.Fprintf(os.Stderr, "Error saving plot: %w", err)
+		fmt.Fprintf(os.Stderr, "Error saving plot: %v", err)
 		os.Exit(1)
 	}
 
