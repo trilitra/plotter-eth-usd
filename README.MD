@@ -3,7 +3,6 @@ This project loads Ethereum price data from a CSV file, processes it, and genera
 
 ## Features
 - Reads ETH price data from a CSV file
-- Processes price pairs
 - Generates a plot using the `gonum/plot` library
 - Saves the plot as a PNG image
 
