@@ -7,16 +7,6 @@ This project loads Ethereum price data from a CSV file, processes it, and genera
 - Generates a plot using the `gonum/plot` library
 - Saves the plot as a PNG image
 
-## Project Structure
-.
-├── main.go
-├── prices.csv
-├── csv_process/
-│   └── (CSV loading logic)
-├── plotter/
-│   └── (Plot generation logic)
-└── ethereum_prices.png (generated output)
-
 ## Requirements
 - Go 1.20+ (recommended)
 - Gonum Plot library
